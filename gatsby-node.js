@@ -232,6 +232,16 @@ exports.createPages = async ({ graphql, actions }) => {
     component: path.resolve(`./src/templates/tag-list.jsx`),
   })
 
+  createPage({
+    path: `/about`,
+    component: path.resolve(`./src/templates/about.jsx`),
+  })
+
+  createPage({
+    path: `/listall`,
+    component: path.resolve(`./src/templates/listall.jsx`),
+  })
+
   // Paginate Sitemap - that page has list of all notes
   paginate({
     createPage,

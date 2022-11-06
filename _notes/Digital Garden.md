@@ -3,6 +3,7 @@ title: Digital Garden
 tags:
   - learning
   - digital-garden
+  - Psychology
 source: '[Digital Garden Setup](https://nesslabs.com/digital-garden-set-up)'
 ---
 

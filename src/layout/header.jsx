@@ -115,36 +115,39 @@ export default function Header({ title, type, description }) {
         <div className="navbar-menu" id="navbar-main">
           <div className="navbar-start">
             {menu.map((item, index) => {
-              return item.menu ? (
-                <span key={index} className="navbar-item dropdown">
-                  <Link
-                    to={`/${item.item}`}
-                    id={`dropdown-${item.item}`}
-                    className="dropdown-toggle"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    {item.title ? item.title : startCase(camelCase(item.item))}
-                  </Link>
-                  <div
-                    className="dropdown-menu"
-                    aria-labelledby={`dropdown-${item.item}`}
-                  >
-                    {item.menu.map((subItem, subIndex) => {
-                      return (
-                        <MenuItem
-                          className="navbar-item"
-                          item={subItem}
-                          key={subIndex}
-                        />
-                      )
-                    })}
-                  </div>
-                </span>
-              ) : (
+              return (
                 <MenuItem className="navbar-item" item={item} key={index} />
               )
+              // item.menu ? (
+              //   <span key={index} className="navbar-item dropdown">
+              //     <Link
+              //       to={`/${item.item}`}
+              //       id={`dropdown-${item.item}`}
+              //       className="dropdown-toggle"
+              //       data-toggle="dropdown"
+              //       aria-haspopup="true"
+              //       aria-expanded="false"
+              //     >
+              //       {item.title ? item.title : startCase(camelCase(item.item))}
+              //     </Link>
+              //     <div
+              //       className="dropdown-menu"
+              //       aria-labelledby={`dropdown-${item.item}`}
+              //     >
+              //       {item.menu.map((subItem, subIndex) => {
+              //         return (
+              //           <MenuItem
+              //             className="navbar-item"
+              //             item={subItem}
+              //             key={subIndex}
+              //           />
+              //         )
+              //       })}
+              //     </div>
+              //   </span>
+              // ) : (
+              //   <MenuItem className="navbar-item" item={item} key={index} />
+              // )
             })}
           </div>
           <div className="navbar-end is-hidden-mobile">

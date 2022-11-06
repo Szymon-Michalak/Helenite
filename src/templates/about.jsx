@@ -10,27 +10,27 @@ export default function About({ pageContext, data }) {
     <Layout>
         <div class="container-about">
           <a class="box-about" href="/tags/productivity">
-            <img src="https://source.unsplash.com/random/900×800/?productivity"></img>
+            <img src="https://source.unsplash.com/random/900×700/?productivity"></img>
             <span>Productivity</span>
           </a>
           <a class="box-about" href="/tags/psychology">
-            <img src="https://source.unsplash.com/random/900×800/?psychology"></img>
+            <img src="https://source.unsplash.com/random/900×700/?psychology"></img>
             <span>Psychology</span>
           </a>
           <a class="box-about" href="/tags/programming">
-            <img src="https://source.unsplash.com/random/900×800/?programming"></img>
+            <img src="https://source.unsplash.com/random/900×700/?programming"></img>
             <span>Programming</span>
           </a>
           <a class="box-about" href="/tags/mathematics">
-            <img src="https://source.unsplash.com/random/900×800/?mathematics"></img>
+            <img src="https://source.unsplash.com/random/900×700/?mathematics"></img>
             <span>Mathematics</span>
           </a>
           <a class="box-about" href="/tags/superuser">
-            <img src="https://source.unsplash.com/random/900×800/?mac"></img>
+            <img src="https://source.unsplash.com/random/900×700/?mac"></img>
             <span>SuperUser</span>
           </a>
           <a class="box-about" href="/tags/knowledge">
-            <img src="https://source.unsplash.com/random/900×800/?knowledge"></img>
+            <img src="https://source.unsplash.com/random/900×700/?knowledge"></img>
             <span>Knowledge</span>
           </a>
         </div>
