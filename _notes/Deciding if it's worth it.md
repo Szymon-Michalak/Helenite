@@ -2,6 +2,6 @@
 title: Deciding if it's worth it
 tags: 
   - Productivity
-  - Essensialism
+  - Essentialism
 ---
 ![Image](IMGfhauwehf.png)

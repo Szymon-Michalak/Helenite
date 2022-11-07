@@ -1,7 +1,7 @@
 ---
-title: Essensialism is like a wardrobe
+title: Essentialism is like a wardrobe
 tags: 
   - Productivity
-  - Essensialism
+  - Essentialism
 ---
 ![Image](IMGgfasfg.png)
