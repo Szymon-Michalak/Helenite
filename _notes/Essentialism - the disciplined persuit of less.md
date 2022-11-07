@@ -6,4 +6,4 @@ tags:
 source: Lucid
 ---
 
-![[IMG_0C691843EFBD-1.jpeg]]
+![Image](IMG_0C691843EFBD-1.jpeg)

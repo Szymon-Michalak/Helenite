@@ -4,4 +4,4 @@ tags:
   - Productivity
   - Essensialism
 ---
-![[PNG image 3.png]]
+![Image](IMGfawfv.png)
