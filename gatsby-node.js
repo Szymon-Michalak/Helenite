@@ -233,11 +233,6 @@ exports.createPages = async ({ graphql, actions }) => {
   })
 
   createPage({
-    path: `/about`,
-    component: path.resolve(`./src/templates/about.jsx`),
-  })
-
-  createPage({
     path: `/listall`,
     component: path.resolve(`./src/templates/listall.jsx`),
   })

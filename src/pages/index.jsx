@@ -40,27 +40,27 @@ export default function About({ pageContext, data }) {
   )
 }
 
-export const query = graphql`
-  query($skip: Int!, $limit: Int!) {
-    notes: allMdx(
-      skip: $skip
-      limit: $limit
-      filter: { fields: { visibility: { eq: "public" } } }
-    ) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-            title
-            date
-            excerpt
-          }
-          frontmatter {
-            tags
-          }
-        }
-      }
-    }
-  }
-`
+// export const query = graphql`
+//   query($skip: Int!, $limit: Int!) {
+//     notes: allMdx(
+//       skip: $skip
+//       limit: $limit
+//       filter: { fields: { visibility: { eq: "public" } } }
+//     ) {
+//       edges {
+//         node {
+//           excerpt
+//           fields {
+//             slug
+//             title
+//             date
+//             excerpt
+//           }
+//           frontmatter {
+//             tags
+//           }
+//         }
+//       }
+//     }
+//   }
+// `
