@@ -4,8 +4,53 @@ import Layout from '../layout/layout'
 import NoteList from '../components/note-list'
 import Pager from '../components/pager'
 import '../styles/about.css'
+import '../styles/indexmobile.css'
 
 export default function About({ pageContext, data }) {
+  console.log(pageContext);
+  const isMobile = window.innerWidth <= 500;
+  if (isMobile)
+  return (
+    <Layout>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"></link>
+
+<div class="menu">
+  <input type="checkbox" id="toggle" />
+  <label id="show-menu" for="toggle">
+    <div class="btn">
+      <i class="material-icons md-36 toggleBtn menuBtn">category</i>
+      <i class="material-icons md-36 toggleBtn closeBtn">close</i>
+    </div>
+    <a class="btn" href="Helenite/tags/productivity">
+      <i class="material-icons md-36">task_alt</i>
+    </a>
+    <a class="btn" href="Helenite/tags/psychology">
+      <i class="material-icons md-36">psychology</i>
+    </a>
+    <a class="btn" href="Helenite/tags/programming">
+      <i class="material-icons md-36">code</i>
+    </a>
+    <a class="btn" href="Helenite/tags/mathematics">
+      <i class="material-icons md-36">functions</i>
+    </a>
+    <a class="btn" href="Helenite/tags/superuser">
+      <i class="material-icons md-36">laptop_mac</i>
+    </a>
+    <a class="btn" href="Helenite/tags/knowledge">
+      <i class="material-icons md-36">school</i>
+    </a>
+    <div class="btn">
+      <i class="material-icons md-36">close</i>
+    </div>
+    <div class="btn">
+      <i class="material-icons md-36">close</i>
+    </div>
+  </label>
+</div>
+</Layout>
+  )
+  else
   return (
     <Layout>
         <div class="container-about">
