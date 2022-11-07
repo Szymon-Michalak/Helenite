@@ -1,5 +1,5 @@
 ---
-title: 'Deciding if it's worth it'
+title: Deciding if it's worth it
 tags: 
   - Productivity
   - Essensialism
