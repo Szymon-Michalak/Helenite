@@ -9,27 +9,27 @@ export default function About({ pageContext, data }) {
   return (
     <Layout>
         <div class="container-about">
-          <a class="box-about" href="/tags/productivity">
+          <a class="box-about" href="/Helenite/tags/productivity">
             <img src="https://source.unsplash.com/random/900×800/?productivity"></img>
             <span>Productivity</span>
           </a>
-          <a class="box-about" href="/tags/psychology">
+          <a class="box-about" href="/Helenite/tags/psychology">
             <img src="https://source.unsplash.com/random/900×800/?psychology"></img>
             <span>Psychology</span>
           </a>
-          <a class="box-about" href="/tags/programming">
+          <a class="box-about" href="/Helenite/tags/programming">
             <img src="https://source.unsplash.com/random/900×800/?programming"></img>
             <span>Programming</span>
           </a>
-          <a class="box-about" href="/tags/mathematics">
+          <a class="box-about" href="/Helenite/tags/mathematics">
             <img src="https://source.unsplash.com/random/900×800/?mathematics"></img>
             <span>Mathematics</span>
           </a>
-          <a class="box-about" href="/tags/superuser">
+          <a class="box-about" href="/Helenite/tags/superuser">
             <img src="https://source.unsplash.com/random/900×800/?mac"></img>
             <span>SuperUser</span>
           </a>
-          <a class="box-about" href="/tags/knowledge">
+          <a class="box-about" href="/Helenite/tags/knowledge">
             <img src="https://source.unsplash.com/random/900×800/?knowledge"></img>
             <span>Knowledge</span>
           </a>
